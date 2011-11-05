@@ -1,0 +1,163 @@
+
+
+html, body, div, span, applet, object, iframe, header, section, article, footer, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin: 0pt; padding: 0pt; border: 0pt none; outline: 0pt none; font-size: 100%; vertical-align: baseline; background: none repeat scroll 0% 0% transparent; }
+header, section, article, footer { display: block; }
+body { color: rgb(68, 71, 81); font: 300 13px/24px 'adelle-1','adelle-2',Georgia,Times,serif; text-align: center; }
+a:link, a:visited { color: rgb(161, 163, 168); text-decoration: none; -moz-transition: color 0.2s ease-in-out 0s; }
+a:hover { color: rgb(103, 112, 143); text-decoration: none; }
+h1 { border-bottom: 1px solid rgb(224, 224, 224); border-top: 5px solid rgb(68, 71, 81); font: 600 13px/13px 'myriad-pro-1','myriad-pro-2',Helvetica,Arial,sans-serif; margin-bottom: 24px; padding: 28px 0pt 28px 47px; text-transform: uppercase; }
+h1 span { color: rgb(161, 163, 168); }
+h2 { font: 600 13px/13px 'myriad-pro-1','myriad-pro-2',Helvetica,Arial,sans-serif; margin-bottom: 24px; text-transform: uppercase; }
+section header p { border-bottom: 1px solid rgb(224, 224, 224); font-size: 23px; line-height: 33px; font-style: normal; font-weight: 300; margin-bottom: 30px; padding: 0pt 0pt 20px; }
+#branding { border-top: 10px solid rgb(68, 71, 81); margin: 0pt auto; padding: 40px 0pt 0pt; text-align: left; width: 915px; }
+#branding img { margin-bottom: 32px; }
+#branding h1 { border-top: 1px solid rgb(224, 224, 224); border-bottom-width: 0pt; font: 300 23px/33px "adelle-1","adelle-2",Georgia,Times,serif; margin-bottom: 22px; padding: 24px 0pt 0pt; text-align: left; text-transform: none; }
+#work { padding-bottom: 300px; }
+#work header { margin: 0pt auto; position: relative; text-align: left; width: 915px; }
+#work h1 { background: url('icon-work.png') no-repeat scroll 0pt 50% transparent; margin-bottom: 0pt; }
+#work h1 span { display: none; }
+#work header p { border-width: 0pt; display: none; font: 600 13px/13px 'myriad-pro-1','myriad-pro-2',Helvetica,Arial,sans-serif; height: 29px; position: absolute; right: 0pt; text-align: right; text-transform: uppercase; top: 25px; width: 200px; }
+#work header p a { background: url('icon-close.png') no-repeat scroll 100% 0pt transparent; display: block; height: 29px; line-height: 29px; padding: 0pt 47px 0pt 0pt; }
+#work header p a:link, #work header p a:visited { color: rgb(68, 71, 81); text-decoration: none; }
+#work header p a:hover { color: rgb(161, 163, 168); text-decoration: none; }
+#work-list { height: 250px; list-style: none outside none; line-height: 0; margin: 30px auto 0pt; position: relative; text-align: left; width: 915px; }
+#work-list li { position: absolute; -moz-transition: all 0.2s ease-in-out 0s ; }
+#work-list-skype { left: 0pt; top: 0pt; }
+#work-list-verizon { left: 0pt; top: 526px; }
+
+#work-list-better-place { left: 310px; top: 0pt; }
+#work-list-sony { left: 310px; top: 248px; }
+
+#work-list-voda360web { left: 620px; top: 0pt; }
+#work-list-vodashop { left: 620px; top: 526px; }
+
+#work-list a { color: rgb(255, 255, 255); display: block; font: 100 12px/13px 'myriad-pro-1','myriad-pro-2',Helvetica,Arial,sans-serif; height: 233px; text-decoration: none; text-transform: uppercase; position: relative; width: 295px; -moz-transition: all 0.2s ease-in-out 0s ; }
+#work-list-skype, #work-list-skype a { background: url('proj-thumb-skype.jpg') no-repeat scroll 0pt 0pt rgb(68, 71, 80); }
+#work-list-verizon, #work-list-verizon a { background: url('proj-thumb-verizon.jpg') no-repeat scroll 0pt 0pt rgb(68, 71, 80); }
+
+#work-list-better-place, #work-list-better-place a { background: url('proj-thumb-better-place.jpg') no-repeat scroll 0pt 0pt rgb(68, 71, 80); }
+#work-list-sony, #work-list-sony a { background: url('proj-thumb-sony.jpg') no-repeat scroll 0pt 0pt rgb(68, 71, 80); }
+
+#work-list-voda360, #work-list-voda360web a { background: url('proj-thumb-voda360web.jpg') no-repeat scroll 0pt 0pt rgb(68, 71, 80); }
+#work-list-vodashop, #work-list-vodashop a { background: url('proj-thumb-vodashop.jpg') no-repeat scroll 0pt 0pt rgb(68, 71, 80); }
+#work-list a:hover { background-color: rgb(50, 52, 55); }
+#work-list-skype a, #work-list-sony a, #work-list-voda360web a { height: 511px; }
+#work-list span.project-name { bottom: 0pt; display: block; left: 0pt; line-height: 20px; padding: 0pt 0pt 15px 20px; position: absolute; width: 275px; }
+#work-list span.project-extra { display: block; height: 184px; left: 0pt; position: absolute; top: 0pt; width: 295px; }
+#work-list-skype span.project-extra, #work-list-sony span.project-extra, #work-list-voda360web span.project-extra { height: 462px; }
+#work-list li a span.project-extra { opacity: 0; z-index: 20; -moz-transition: all 0.2s ease-in-out 0s ; }
+#work-list a:hover span.project-extra { opacity: 1; }
+#work-list-skype a span.project-extra, #work-list-skype a:hover span.project-extra { background: url('proj-thumb-skype.jpg') no-repeat scroll -295px 0pt transparent; }
+#work-list-vodashop a span.project-extra, #work-list-vodashop a:hover span.project-extra { background: url('proj-thumb-vodashop.jpg') no-repeat scroll -295px 0pt transparent; }
+
+#work-list-better-place a span.project-extra, #work-list-better-place a:hover span.project-extra { background: url('proj-thumb-better-place.jpg') no-repeat scroll -295px 0pt transparent; }
+#work-list-sony a span.project-extra, #work-list-sony a:hover span.project-extra { background: url('proj-thumb-sony.jpg') no-repeat scroll -295px 0pt transparent; }
+
+#work-list-voda360web a span.project-extra, #work-list-voda360web a:hover span.project-extra { background: url('proj-thumb-voda360web.jpg') no-repeat scroll -295px 0pt transparent; }
+#work-list-verizon a span.project-extra, #work-list-verizon a:hover span.project-extra { background: url('proj-thumb-verizon.jpg') no-repeat scroll -295px 0pt transparent; }
+
+#work-container { background-color: rgb(232, 233, 234); height: 0px; margin-top: -1px; overflow: hidden; position: relative; width: 100%; }
+div.work-details { border-bottom: 1px solid rgb(204, 205, 206); border-top: 1px solid rgb(204, 205, 206); display: none; position: absolute; top: 0pt; width: 100%; }
+div.work-details section { margin: 0pt auto; padding: 50px 0pt 65px; text-align: left; width: 915px; }
+div.work-details section:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0pt; }
+.screenshots { border: 1px solid rgb(204, 205, 206); height: 635px; position: relative; width: 915px; }
+.screenshots ul, .screenshots li { line-height: 0; list-style: none outside none; margin: 0pt; padding: 0pt; }
+.screenshots li { height: 572px; position: relative; width: 915px; }
+.screenshots img { left: 0px; position: absolute; top: 0px; z-index: 0; }
+.screenshots img.empty { z-index: 100; }
+.screenshots div { background-color: rgb(68, 71, 81); bottom: 0pt; color: rgb(162, 163, 168); font: 600 13px/13px 'myriad-pro-1','myriad-pro-2',Helvetica,Arial,sans-serif; height: 63px; position: absolute; left: 0pt; width: 915px; }
+.screenshots div span { position: absolute; }
+.screenshots div span.control-prev { left: 15px; top: 16px; }
+.screenshots div span.control-next { left: 56px; top: 16px; }
+.screenshots div span.control-counter { right: 30px; top: 26px; }
+.screenshots div span a { display: block; height: 31px; text-indent: -9999px; width: 31px; }
+.screenshots div span.control-prev, .screenshots div span.control-prev a { background: url('control-prev.png') no-repeat scroll 0pt 0pt transparent; height: 31px; width: 31px; }
+.screenshots div span.control-next, .screenshots div span.control-next a { background: url('control-next.png') no-repeat scroll 0pt 0pt transparent; height: 31px; width: 31px; }
+.screenshots div span a:hover { background-position: 0pt -31px; }
+#work h2 { font: 300 44px/44px "adelle-1","adelle-2",Georgia,Times,serif; text-transform: none; margin: 0pt 0pt 20px; padding: 50px 0pt 0pt; }
+#work h2 span { color: rgb(150, 152, 156); font-style: italic; font-weight: 300; }
+#work h3 { border-bottom: 5px solid rgb(68, 71, 81); font-size: 23px; line-height: 33px; font-style: normal; font-weight: 300; margin-bottom: 35px; padding: 0pt 0pt 30px; }
+#work article { float: left; margin-right: 40px; width: 270px; }
+#work article p { padding-top: 24px; }
+#work article.detail-result { margin-right: 0pt; }
+#work article h4 { color: rgb(150, 152, 156); font: 600 13px/13px 'myriad-pro-1','myriad-pro-2',Helvetica,Arial,sans-serif; text-transform: uppercase; }
+#clients { margin: 0pt auto; padding-bottom: 65px; text-align: left; width: 915px; }
+#clients img { float: left; margin-bottom: 37px; }
+#clients:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0pt; }
+#clients h1 { background: url('icon-clients.png') no-repeat scroll 0pt 50% transparent; margin-bottom: 70px; }
+#services { margin: 0pt auto; text-align: left; padding-bottom: 90px; width: 915px; }
+#services:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0pt; }
+#services h1 { background: url('icon-services.png') no-repeat scroll 0pt 50% transparent; }
+#services article { float: left; margin: -25px 40px 0pt 0pt; width: 270px; }
+#services article#services-deliver { margin-right: 0pt; }
+#services article h2 { overflow: visible; margin-bottom: 0pt; padding: 35px 0pt 35px 44px; }
+#services article#services-discover h2 { background: url('services1.png') no-repeat scroll 0pt 50% transparent; }
+#services article#services-design h2 { background: url('services2.png') no-repeat scroll 0pt 50% transparent; }
+#services article#services-deliver h2 { background: url('services3.png') no-repeat scroll 0pt 50% transparent; }
+#services article p, #services article ul { color: rgb(105, 108, 116); margin-bottom: 25px; }
+#services article ul { margin: 0pt 0pt 0pt 15px; }
+#leadership { margin: 0pt auto; text-align: left; padding-bottom: 90px; width: 915px; }
+#leadership:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0pt; }
+#leadership h1 { background: url('icon-leadership.png') no-repeat scroll 0pt 50% transparent; }
+#leadership article { float: left; margin-right: 40px; width: 270px; }
+#leadership article#leadership-lin { margin-right: 0pt; }
+#leadership article img { margin-bottom: 30px; }
+#leadership article p { color: rgb(105, 108, 116); margin-bottom: 25px; }
+#contact { margin: 0pt auto; text-align: left; padding-bottom: 90px; width: 915px; }
+#contact:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0pt; }
+#contact h1 { background: url('icon-contact.png') no-repeat scroll 0pt 50% transparent; }
+#contact article { float: left; width: 228px; }
+#contact a:after { content: url('icon-arrow.png'); position: relative; }
+#contact span.street-address { display: block; }
+footer { background-color: rgb(68, 71, 81); color: rgb(162, 163, 168); margin: 0pt auto; padding: 25px 35px 90px; position: relative; text-align: left; width: 845px; }
+footer p.location { color: rgb(255, 255, 255); font-size: 19px; padding-top: 7px; }
+/* ::::: http://use.typekit.com/k/eqn7ocx-e.css?3bb2a6e53c9684ffdc9a9bf61d5b2a62d6138ae381e419350a9e4b7830f2ed36f9bd0a554e8ab52ca65d204a9a7ba96f7ffc0a4ef6513700878849bb1971eef08237bce6c9c26222b05a690af97d3fdd5e8f72c5dd5794c5b946452f7a8767c08eb5daa834aa24cbd343ba ::::: */
+
+@font-face {
+	font-family: "adelle-1";
+	font-style: normal;
+	font-weight: 300;
+	
+}
+@font-face {
+	font-family: "adelle-1";
+	font-style: italic;
+	font-weight: 300;
+
+}
+@font-face {
+	font-family: "adelle-1";
+	font-style: normal;
+	font-weight: 400;
+	
+}
+@font-face {
+	font-family: "adelle-1";
+	font-style: italic;
+	font-weight: 400;
+
+}
+@font-face {
+	font-family: "myriad-pro-1";
+	font-style: normal;
+	font-weight: 400;
+	
+}
+@font-face {
+	font-family: "myriad-pro-1";
+	font-style: italic;
+	font-weight: 400;
+	
+}
+@font-face {
+	font-family: "myriad-pro-1";
+	font-style: normal;
+	font-weight: 600;
+
+}
+@font-face {
+	font-family: "myriad-pro-1";
+	font-style: italic;
+	font-weight: 600;
+
+}
